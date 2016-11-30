@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.ProcesserServer", "Kosmos.ProcesserServer\Kosmos.ProcesserServer.csproj", "{65ED4AA9-DFEA-488B-8100-2B5563319EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.ProcesserServer.Tests", "Kosmos.ProcesserServer.Tests\Kosmos.ProcesserServer.Tests.csproj", "{0131E1C7-BFEF-46F2-B259-786FA207AD8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65ED4AA9-DFEA-488B-8100-2B5563319EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ED4AA9-DFEA-488B-8100-2B5563319EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ED4AA9-DFEA-488B-8100-2B5563319EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ED4AA9-DFEA-488B-8100-2B5563319EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0131E1C7-BFEF-46F2-B259-786FA207AD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0131E1C7-BFEF-46F2-B259-786FA207AD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0131E1C7-BFEF-46F2-B259-786FA207AD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0131E1C7-BFEF-46F2-B259-786FA207AD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
