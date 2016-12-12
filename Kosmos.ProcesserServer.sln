@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.ProcesserServer", "K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.ProcesserServer.Tests", "Kosmos.ProcesserServer.Tests\Kosmos.ProcesserServer.Tests.csproj", "{0131E1C7-BFEF-46F2-B259-786FA207AD8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.ProcesserServer.DbContext", "Kosmos.ProcesserServer.DbContext\Kosmos.ProcesserServer.DbContext.csproj", "{3E175919-8364-40F4-BAD0-BBAED272FF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.ProcesserServer.Model", "Kosmos.ProcesserServer.Model\Kosmos.ProcesserServer.Model.csproj", "{B542A39D-C72F-41B3-8A91-7B7E76236B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kosmos.ProcesserServer.ModelDbMappings", "Kosmos.ProcesserServer.ModelDbMappings\Kosmos.ProcesserServer.ModelDbMappings.csproj", "{AF6AAC21-2778-4EDC-84A9-D952C9360777}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{0131E1C7-BFEF-46F2-B259-786FA207AD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0131E1C7-BFEF-46F2-B259-786FA207AD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0131E1C7-BFEF-46F2-B259-786FA207AD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E175919-8364-40F4-BAD0-BBAED272FF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E175919-8364-40F4-BAD0-BBAED272FF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E175919-8364-40F4-BAD0-BBAED272FF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E175919-8364-40F4-BAD0-BBAED272FF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B542A39D-C72F-41B3-8A91-7B7E76236B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B542A39D-C72F-41B3-8A91-7B7E76236B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B542A39D-C72F-41B3-8A91-7B7E76236B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B542A39D-C72F-41B3-8A91-7B7E76236B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6AAC21-2778-4EDC-84A9-D952C9360777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6AAC21-2778-4EDC-84A9-D952C9360777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6AAC21-2778-4EDC-84A9-D952C9360777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6AAC21-2778-4EDC-84A9-D952C9360777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
